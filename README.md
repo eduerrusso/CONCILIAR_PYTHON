@@ -23,3 +23,13 @@ python conciliador.py "~/Descargas/CORRIENTE 05-2025 CTA 9670.pdf" "~/Descargas/
 ```
 
 El script generará los archivos `conciliacion_detalle.xlsx` y `conciliacion_resumen.csv` en el directorio actual e imprimirá un resumen en consola.
+
+## Interfaz grafica
+
+Tambien puedes ejecutar una interfaz grafica sencilla para seleccionar los archivos y lanzar la conciliacion:
+
+```bash
+python conciliador_gui.py
+```
+
+Se abrira una ventana donde podras elegir el PDF y el Excel. Al pulsar **Conciliar** se generaran `conciliacion_detalle.xlsx` y `conciliacion_resumen.csv` en el directorio actual.
